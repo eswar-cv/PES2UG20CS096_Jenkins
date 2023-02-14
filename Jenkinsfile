@@ -9,7 +9,7 @@ pipeline {
                 echo 'Build Completed'
             }
         }
-        stage('Build') {
+        stage('Test') {
             steps {
                 echo 'Starting Testing'
                 sh '/var/jenkins_home/workspace/PES2UG20CS096-1/main/hello_exec'
