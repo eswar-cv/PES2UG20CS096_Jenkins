@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Starting Build'
-                sh 'make -C mains'
+                sh 'make -C mai'
                 echo 'Build Completed'
             }
         }
